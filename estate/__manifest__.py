@@ -1,6 +1,3 @@
 {
     'name': 'estate',
-    'depends': [
-        'base',
-    ]
 }
