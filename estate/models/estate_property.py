@@ -30,5 +30,6 @@ class EstateProperty(models.Model):
         selection=[
             ('new', 'New'), ('offer received', 'Offer Received'),
             ('offer accepted', 'Offer Accepted'), ('sold', 'Sold'),
-            ('cancelled', 'Cancelled')], default='new', copy=False
+            ('cancelled', 'Cancelled')], default='new', copy=False,
+            required=True
     )
