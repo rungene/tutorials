@@ -28,7 +28,11 @@
                 <sheet>
                     <group>
                         <group>
-                            <field name="name"/>
+                            <div class="oe_title">
+                                <h1>
+                                    <field name="name"/>
+                                </h1>
+                            </div>
                         </group>
                         <group>
                             <field name="postcode"/>
